@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kidstorieslogoees"
+    tools:context=".RabbitTurtle">
+
+
+    <ScrollView android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edtTxt1"
+                android:layout_marginLeft="10dp"
+                android:text="@string/rabbitturtle_head"
+                android:textSize="30dp"
+                />
+
+            <Switch
+                android:id="@+id/simpleSwitch2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="250dp"
+                android:text="Read"
+                android:textSize="20dp"
+                android:textColor="#6200EE"
+                android:textOff="Off"
+                android:textOn="On" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edtTxt2"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="15dp"
+                android:text="@string/rabbitturtle_story"
+                android:textSize="18dp"
+                android:scrollbars="vertical"
+                android:textAlignment="viewStart"
+                tools:ignore="MissingConstraints"
+                />
+
+            <!--    <Button-->
+            <!--        android:id="@+id/button1"-->
+            <!--        android:layout_width="wrap_content"-->
+            <!--        android:layout_height="wrap_content"-->
+            <!--        android:layout_below="@+id/edtTxt1"-->
+            <!--        android:layout_alignLeft="@+id/edtTxt1"-->
+            <!--        android:layout_marginLeft="150dp"-->
+            <!--        android:layout_marginTop="20dp"-->
+            <!--        android:text="Speak"-->
+            <!--        tools:ignore="MissingConstraints"-->
+            <!--        tools:layout_editor_absoluteX="209dp"-->
+            <!--        tools:layout_editor_absoluteY="427dp" />-->
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

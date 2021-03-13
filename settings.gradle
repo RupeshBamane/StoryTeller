@@ -1,0 +1,4 @@
+include ':MaterialDesign'
+include ':MaterialDesignDemo'
+include ':app'
+rootProject.name = "StoryTeller"

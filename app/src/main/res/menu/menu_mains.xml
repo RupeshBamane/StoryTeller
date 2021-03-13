@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<!--    <item android:id="@+id/item1"-->
+<!--        android:icon="@drawable/voice"-->
+<!--        android:title="Read"-->
+<!--        app:showAsAction="always"-->
+<!--        android:iconTint="#fff"-->
+<!--        />-->
+
+<!--    <item android:id="@+id/item2"-->
+<!--        android:icon="@drawable/noheadphones"-->
+<!--        android:title="Stop"-->
+<!--        app:showAsAction="always"-->
+<!--        android:iconTint="#fff"-->
+<!--        />-->
+
+<!--    <item android:id="@+id/item3"-->
+<!--        android:icon="@drawable/share"-->
+<!--        android:title="Share"-->
+<!--        app:showAsAction="always"-->
+<!--        android:iconTint="#fff"-->
+<!--        />-->
+    <item  android:id="@+id/item1"
+        android:title="Help"/>
+    <item  android:id="@+id/item2"
+        android:title="Share"/>
+    <item  android:id="@+id/item3"
+        android:title="About Us"
+        app:showAsAction="withText"/>
+</menu>

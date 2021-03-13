@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.storyteller">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/script"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/script"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Bearfriends"
+            android:parentActivityName=".HomeActivity"
+            />
+        <activity android:name=".Bundlestick"
+            android:parentActivityName=".HomeActivity"/>
+        <activity android:name=".Elephantsparrow"
+            android:parentActivityName=".HomeActivity"/>
+        <activity android:name=".Lionrabbit"
+            android:parentActivityName=".HomeActivity"/>
+        <activity android:name=".Threefish"
+            android:parentActivityName=".HomeActivity"/>
+        <activity android:name=".Tortoisegeese"
+            android:parentActivityName=".HomeActivity"/>
+        <activity android:name=".Lionmouse"
+            android:parentActivityName=".HomeActivity"/>
+        <activity android:name=".Goatsjackal"
+            android:parentActivityName=".HomeActivity"/>
+        <activity android:name=".Jackaldrum"
+            android:parentActivityName=".HomeActivity"/>
+        <activity android:name=".Mongoosewife"
+            android:parentActivityName=".HomeActivity"/>
+        <activity
+            android:name=".Fourfriendhunter"
+            android:parentActivityName=".HomeActivity">
+<!--            <meta-data-->
+<!--                android:name="android.support.PARENT_ACTIVITY"-->
+<!--                android:value="com.example.storyteller.HomeActivity"/>-->
+        </activity>
+        <activity android:name=".StorkCrab"
+            android:parentActivityName=".HomeActivity"/>
+        <activity android:name=".RabbitTurtle"
+            android:parentActivityName=".HomeActivity"/>
+        <activity
+            android:name=".AkbarBirbal"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".ThirstyCrow"
+            android:parentActivityName=".HomeActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
